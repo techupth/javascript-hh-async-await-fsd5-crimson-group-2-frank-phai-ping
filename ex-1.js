@@ -14,3 +14,11 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+
+let displayProfile = (data) => {
+  console.log(data);
+};
+
+getJohnProfile().then((displayProfile) => {
+  console.log(displayProfile);
+});
