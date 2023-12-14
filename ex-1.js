@@ -13,4 +13,10 @@ let getJohnProfile = () => {
     );
   });
 };
-// Start coding here
+// // Start coding here
+let result = (outPut) => {
+  return console.log(outPut);
+}
+
+getJohnProfile().then(result)
+

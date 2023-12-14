@@ -33,3 +33,12 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+let result1 = (outPut) => {
+  return console.log(outPut);
+}
+
+let result2 = (outPut) => {
+  return console.log(outPut);
+}
+
+getJohnProfile().then(result1).then(getJohnOrders).then(result2)

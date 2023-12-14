@@ -1,9 +1,9 @@
 // Exercise #4
 let getJohnProfile = () => {
-  return new Promise(function (resolve) {
+  return new Promise( function (resolve) {
     setTimeout(
-      () =>
-        resolve({
+       () =>
+       resolve({
           name: "John",
           age: 20,
           hobbies: ["Coding", "Football"],
@@ -13,3 +13,9 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+async function asynchronousFunction() {
+  let result = await getJohnProfile();
+  console.log(result);
+}
+
+asynchronousFunction()
